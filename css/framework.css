@@ -3625,7 +3625,7 @@ kbd {
   padding: 0.625rem 0.875rem;
   font-size: 0.875rem;
 }
-.orbit-container .orbit-slide-number {
+/* .orbit-container .orbit-slide-number {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -3730,11 +3730,13 @@ kbd {
 }
 .orbit-container .orbit-next:hover > span {
   border-left-color: white;
+
 }
-.orbit-container .orbit-bullets-container {
+*/
+.testimonials .orbit-container .orbit-bullets-container {
   text-align: center;
 }
-.orbit-container .orbit-bullets {
+.testimonials .orbit-container .orbit-bullets {
   margin: 0 auto 30px auto;
   overflow: hidden;
   position: relative;
@@ -3743,7 +3745,7 @@ kbd {
   text-align: center;
   display: block;
 }
-.orbit-container .orbit-bullets li {
+.testimonials .orbit-container .orbit-bullets li {
   display: inline-block;
   width: 0.5625rem;
   height: 0.5625rem;
@@ -3752,27 +3754,27 @@ kbd {
   margin-right: 6px;
   border-radius: 1000px;
 }
-.orbit-container .orbit-bullets li.active {
+.testimonials .orbit-container .orbit-bullets li.active {
   background: #999999;
 }
-.orbit-container .orbit-bullets li:last-child {
+.testimonials .orbit-container .orbit-bullets li:last-child {
   margin-right: 0;
 }
 
-.touch .orbit-container .orbit-prev,
-.touch .orbit-container .orbit-next {
+.touch .testimonials .orbit-container .orbit-prev,
+.touch .testimonials .orbit-container .orbit-next {
   display: none;
 }
-.touch .orbit-bullets {
+.touch .testimonials .orbit-bullets {
   display: none;
 }
 
 @media only screen and (min-width: 40.063em) {
-  .touch .orbit-container .orbit-prev,
-  .touch .orbit-container .orbit-next {
+  .touch .testimonials .orbit-container .orbit-prev,
+  .touch .testimonials .orbit-container .orbit-next {
     display: inherit;
   }
-  .touch .orbit-bullets {
+  .touch .testimonials .orbit-bullets {
     display: block;
   }
 }
