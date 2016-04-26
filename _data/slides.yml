@@ -5,3 +5,10 @@
     <p>EthosLabs helps governments and startups work together</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Work with Us</a>
+- image: slider.jpg
+  desc_location: center
+  desc:
+    <h2>Accelerating Good Government<br/>Through Great Technology</h2>
+    <p>EthosLabs helps governments and startups work together</p>
+    <div class='two spacing'></div>
+    <a class='button boxed'>Work with Us</a>

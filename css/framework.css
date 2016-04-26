@@ -3730,13 +3730,11 @@ kbd {
 }
 .orbit-container .orbit-next:hover > span {
   border-left-color: white;
-
 }
-
-.testimonials .orbit-container .orbit-bullets-container {
+.orbit-container .orbit-bullets-container {
   text-align: center;
 }
-.testimonials .orbit-container .orbit-bullets {
+.orbit-container .orbit-bullets {
   margin: 0 auto 30px auto;
   overflow: hidden;
   position: relative;
@@ -3745,7 +3743,7 @@ kbd {
   text-align: center;
   display: block;
 }
-.testimonials .orbit-container .orbit-bullets li {
+.orbit-container .orbit-bullets li {
   display: inline-block;
   width: 0.5625rem;
   height: 0.5625rem;
@@ -3754,27 +3752,27 @@ kbd {
   margin-right: 6px;
   border-radius: 1000px;
 }
-.testimonials .orbit-container .orbit-bullets li.active {
+.orbit-container .orbit-bullets li.active {
   background: #999999;
 }
-.testimonials .orbit-container .orbit-bullets li:last-child {
+.orbit-container .orbit-bullets li:last-child {
   margin-right: 0;
 }
 
-.touch .testimonials .orbit-container .orbit-prev,
-.touch .testimonials .orbit-container .orbit-next {
+.touch .orbit-container .orbit-prev,
+.touch .orbit-container .orbit-next {
   display: none;
 }
-.touch .testimonials .orbit-bullets {
+.touch .orbit-bullets {
   display: none;
 }
 
 @media only screen and (min-width: 40.063em) {
-  .touch .testimonials .orbit-container .orbit-prev,
-  .touch .testimonials .orbit-container .orbit-next {
+  .touch .orbit-container .orbit-prev,
+  .touch .orbit-container .orbit-next {
     display: inherit;
   }
-  .touch .testimonials .orbit-bullets {
+  .touch .orbit-bullets {
     display: block;
   }
 }
