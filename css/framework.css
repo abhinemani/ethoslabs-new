@@ -3625,7 +3625,7 @@ kbd {
   padding: 0.625rem 0.875rem;
   font-size: 0.875rem;
 }
-/* .orbit-container .orbit-slide-number {
+.orbit-container .orbit-slide-number {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -3732,7 +3732,7 @@ kbd {
   border-left-color: white;
 
 }
-*/
+
 .testimonials .orbit-container .orbit-bullets-container {
   text-align: center;
 }
