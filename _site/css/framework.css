@@ -3530,6 +3530,8 @@ kbd {
 .orbit-container .orbit-slides-container img {
   display: block;
   max-width: 100%;
+  min-height: 125px;
+  
 }
 .orbit-container .orbit-slides-container.fade li {
   opacity: 0;
@@ -3779,6 +3781,7 @@ kbd {
 @media only screen and (max-width: 40em) {
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important;
+	min-height: 300px;
   }
   .orbit-stack-on-small .orbit-slides-container > * {
     position: relative;
