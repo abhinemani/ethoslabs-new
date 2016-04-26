@@ -431,6 +431,7 @@ textarea {
   position: absolute;
   bottom: 20px;
   width: 100%;
+  display: none;
 }
 .orbit-container .orbit-slides-container li .orbit-caption {
   top: 60px;
