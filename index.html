@@ -18,7 +18,9 @@ services:
       icon: layout
       desc:
         Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
+      color: blue
+
+services-gov:
   -
     - title: Web design
       icon: layout
@@ -66,19 +68,51 @@ works:
 ---
 
 {% include slider.html %}
+<div class='full yellow no-padding'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='call-to-action light'>
+      <div class='medium-9 large-9 columns'>
+        <p class='left'>EthosLabs is a new kind of accelerator that helps governments and startups work together.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='button white' href='#'>Work with Us</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+
+<!--<div class='full white centered-text no-padding'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='three spacing'></div>
+      <h2>Join the Network of Governments and Government Startups</h2>
+      <img class='centered' src='{{site.baseurl}}/images/network.png'>
+    </div>
+  </div>
+</div>-->
+
+
 
 {% include whys.html shape="circle" %}
 
 <div class='full bg-3 light'>
   <div class='row'>
     <div class='large-6 columns'>
-      <img class='fadeinleft' src='{{site.baseurl}}/images/ipad-air.png'>
+      <img class='fadeinleft' src='http://ethoslabs.us/img/services/startups.jpg'>
     </div>
     <div class='large-6 columns'>
-      <h2 class='light'>Who we are</h2>
+      <h2 class='light'>For Entreprenuers</h2>
       <p>
-		  Together, Abhi Nemani and Bob Sofman have deep experience in the civic tech space: from co-leading a civic tech non-profit (Code for America), to leadership roles in government (City of Los Angeles) and civic startups (SmartProcure).
+		  The EthosLabs team has helped dozens of govtech startups launch and thrive, and can bring their knowledge, network, and experience to bear for your company. Here’s what we offer:
       </p>
+	  <ul>
+		  <li>Understanding of procurement and sales/marketing tactics for government</li>
+		  <li>Shared rolodex of government parters and investors</li>
+		  <li>National recognition at conferences, through press, etc</li>
+	  </ul>
       <a class='button boxed'>Know more</a>
     </div>
   </div>
@@ -101,61 +135,45 @@ works:
   {% endfor %}
 </div>
 
-<div class='full bg-4 no-padding'>
-  <div class='two spacing'></div>
-  <div class='row'>
-    {% for milestone in page.milestones %}
-      <div class='medium-3 large-3 columns'>
-        <div class='milestone light'>
-          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'></strong>
-          <span>{{milestone.title}}</span>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class='two spacing'></div>
-</div>
 
-<div class='full white centered-text no-padding'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='three spacing'></div>
-      <h2>Lovely Design</h2>
-      <img class='centered' src='{{site.baseurl}}/images/design-show.png'>
-    </div>
-  </div>
-</div>
-
-<div class='full yellow no-padding'>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='call-to-action light'>
-      <div class='medium-9 large-9 columns'>
-        <p class='left'>A Creative, Modern, Clean &amp; Responsive Template, what are you waiting for?</p>
-      </div>
-      <div class='medium-3 large-3 columns'>
-        <a class='button white' href='#'>Purchase Now</a>
-      </div>
-    </div>
-  </div>
-  <div class='spacing'></div>
-</div>
 
 <div class='full bg-5'>
   <div class='spacing'></div>
   <div class='row'>
     <div class='large-6 columns'>
-      <h2 class='light'>Very easy to use</h2>
+      <h2 class='light'>For Governments</h2>
       <p class='light'>
-        Quibusdam ea excepturi repudiandae. voluptates voluptatem quam quod quaerat sed in praesentium sint. ipsum accusamus provident debitis cupiditate labore at voluptate qui ab dolore corporis itaque et ea.
-      </p>
+	   Curious how we think about what’s possible? See our 7 Principles for 21st Century Cities. Here’s how we plan on helping cities reposition themselves for innovation:
+      </p>   
+	  <ul class='light'>
+		  <li>Support developing technical or innovation capacity</li>
+		  <li>A network of other governmental leaders to connect to for support</li>
+		  <li>An understanding of what’s worked, where, to learn from</li>
+	  </ul>
       <a class='button boxed' href='#'>Know more</a>
     </div>
     <div class='large-6 columns'>
-      <img class='fadeinright' src='{{site.baseurl}}/images/settings.jpg'>
+      <img class='fadeinright' src='http://ethoslabs.us/img/services/governments.png'>
     </div>
   </div>
   <div class='spacing'></div>
+</div>
+
+<div class='full white'>
+  {% for row in page.services-gov %}
+    <div class="row">
+      {% for service in row %}
+        <div class='medium-4 large-4 columns icon-text'>
+          <i class='icon-{{service.icon}} {{service.color}}'></i>
+          <h3>{{service.title}}</h3>
+          <p>{{service.desc}}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% unless forloop.last %}
+      <div class="spacing"></div>
+    {% endunless %}
+  {% endfor %}
 </div>
 
 <div class='full no-padding'>
@@ -188,5 +206,21 @@ works:
 {% include clients.html %}
 
 {% include testimonials.html bg="bg-1" %}
+
+
+<div class='full bg-4 no-padding'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns'>
+        <div class='milestone light'>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'></strong>
+          <span>{{milestone.title}}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
 
 {% include get-in-touch.html %}
