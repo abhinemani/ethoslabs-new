@@ -2,7 +2,7 @@
   desc_location: center
   desc:	
     <h2>Accelerating Good Government Through Great Technology</h2>
-    <div></div>
+    <div class='two spacing'></div>
     <a class='button boxed'>How We Help</a>
 - image: slide-4.jpg
   desc_location: center
