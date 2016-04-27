@@ -11,10 +11,21 @@
       <link href='/ethoslabs-new/css/style.css' rel='stylesheet'>
       <link href='/ethoslabs-new/css/fontello.css' rel='stylesheet'>
 	  <link rel="shortcut icon" href='/ethoslabs-new/favicon.ico' >
+      <script src='/ethoslabs-new/js/jquery.min.js'></script>
+	  
       <script src='/ethoslabs-new/js/modernizr.js'></script>
-
+	  <script>
+	  	//paste this code under head tag or in a seperate js file.
+	  	// Wait for window load
+	  	$(window).load(function() {
+	  		// Animate loader off screen
+	  		$(".se-pre-con").fadeOut("slow");;
+	  	});
+	  </script>
+	  
     </head>
     <body>
+	  <div class="se-pre-con"></div>
       <div class='contain-to-grid sticky'>
         <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
           <ul class='title-area'>
@@ -488,7 +499,6 @@
         </div>
       </div>
 
-      <script src='/ethoslabs-new/js/jquery.min.js'></script>
       <script src='/ethoslabs-new/js/foundation.min.js'></script>
       <script src='/ethoslabs-new/js/jquery.countTo.js'></script>
       <script src='/ethoslabs-new/js/jquery.appear.js'></script>
