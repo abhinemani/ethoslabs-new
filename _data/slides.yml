@@ -3,16 +3,16 @@
   desc:	
     <h2>Accelerating Good Government Through Great Technology</h2>
     <div class='two spacing'></div>
-    <a class='button boxed'>Work with Us</a>
+    <a class='button boxed' href='#contact'>Work with Us</a>
 - image: slide-3.jpg
   desc_location: center
   desc:	
     <h2>Accelerating Good Government Through Great Technology</h2>
     <div class='two spacing'></div>
-    <a class='button boxed'>How We Help</a>
+    <a class='button boxed' href='#contact'>How We Help</a>
 - image: slide-4.jpg
   desc_location: center
   desc:	
     <h2>Accelerating Good Government Through Great Technology</h2>
     <div class='two spacing'></div>
-    <a class='button boxed'>Work with Us</a>
+    <a class='button boxed' href='#contact'>Work with Us</a>
