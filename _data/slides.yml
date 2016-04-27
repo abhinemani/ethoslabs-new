@@ -1,3 +1,9 @@
+- image: slide-5.jpg
+  desc_location: center
+  desc:	
+    <h2>Accelerating Good Government Through Great Technology</h2>
+    <div class='two spacing'></div>
+    <a class='button boxed'>Work with Us</a>
 - image: slide-3.jpg
   desc_location: center
   desc:	
@@ -7,12 +13,6 @@
 - image: slide-4.jpg
   desc_location: center
   desc:	
-    <h2>Accelerating Good Government &amp;  Great Technology</h2>
-    <div class='two spacing'></div>
-    <a class='button boxed'>Work with Us</a>
-- image: slide-5.jpg
-  desc_location: center
-  desc:	
-    <h2>Accelerating Good Government &amp;  Great Technology</h2>
+    <h2>Accelerating Good Government Through Great Technology</h2>
     <div class='two spacing'></div>
     <a class='button boxed'>Work with Us</a>
